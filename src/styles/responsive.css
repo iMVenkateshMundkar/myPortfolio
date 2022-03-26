@@ -1,0 +1,193 @@
+@media (max-width: 360px) {
+    .arrowDiv{
+        height: 50px;
+        width: 50px;
+        background-size: 50px 50px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .arrowDiv .arrowCircle{
+        height: 45px;
+        width: 45px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .arrowDiv .arrowCircle .arrow{
+        height: 10px;
+        width: 17px;
+        margin-top: 20px;
+        margin-left: 13px;
+    }
+    #main #home{
+        height: 450px;
+        display: block;
+    }
+    #home #myPhotoDiv{
+        height: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    #myPhoto{
+        width: 120px;
+        height: 150px;
+    }
+    #home > #opVerse{
+        width: 80%;
+        height: 50%;
+        margin: auto;
+    }
+    #opVerse > p:nth-child(1){
+        margin-top: 50px;
+        font-size: 13px;
+    }
+    #opVerse > p:nth-child(2){
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #opVerse > p:nth-child(3){
+        font-size: 15px;
+        line-height: 18px;
+    }
+    #aboutDiv{
+        height: 700px;
+        margin-bottom: 450px;
+    }
+    #main #about{
+        border: 1px solid white;
+        height: 650px;
+        display: block;
+    }
+    #about #mobileImg{
+        width: 65%;
+        height: 30%;
+    }
+    #about #aboutInfo{
+        width: 100%;
+        height: 55%;
+        margin: auto;
+    }
+    #aboutHead{
+        margin-bottom: 20px;
+    }
+    #aboutContent{
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 0.1em;
+        line-height: 120%;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    #skillsDiv{
+        height: 800px;
+        margin-bottom: 350px;
+    }
+    #skills{
+        height: 800px;
+    }
+    #allSkills{
+        margin-top: 40px;
+    }
+    #skills > div{
+        grid-gap: 10px;
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #skills > div > div{
+        height: 100px;
+    }
+    #skills img{
+        width: 50px;
+        height: 50px;
+    }
+    .head{
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 400px;
+        letter-spacing: -0.010em;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #projectsDiv{
+        margin-bottom: 50px;
+    }
+    #allProjects{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    #allProjects > div{
+        /* border: 1px solid white; */
+        display: block;
+        width: 90%;
+        margin: auto;
+        height: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #allProjects > div > div{
+        width: 100%;
+        height: 50%;
+    }
+    .leftProject{
+        width: 100%;
+    }
+    .leftProject img{
+        width: 90%;
+        height: 90%;
+        margin-top: 3.8%;
+    }
+    .rightProject{
+        /* border: 1px solid red; */
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    .rightProject .name{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .rightProject .desc{
+        margin-top: 20px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .rightProject .tech{
+        margin-top: 20px;
+        gap: 5px;
+    }
+    .tech p{
+        font-size: 15px;
+        font-weight: 600px;
+    }
+    .linkImg{
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .linkImg:hover{
+        width: 14px;
+        height: 14px;
+    }
+    #contact{
+        margin-top: 100px;
+    }
+    #contact .contactDesc{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    #links{
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    #links img{
+        width: 25px;
+        height: 25px;
+    }
+}

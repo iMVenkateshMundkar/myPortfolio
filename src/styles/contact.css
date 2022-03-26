@@ -1,0 +1,7 @@
+
+#contact p:nth-child(2){
+    font-size: 18px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 200;
+}
